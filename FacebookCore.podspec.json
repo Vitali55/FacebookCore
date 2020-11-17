@@ -20,7 +20,11 @@
     "ENABLE_TESTABILITY": "YES"
   },
   "ios": {
-    spec.dependency "FBSDKCoreKit/Basics", ">= 7.0.1"
+    "dependencies": {
+      "FBSDKCoreKit/Basics": [
+        ">= 7.0.1"
+      ]
+    }
   },
   "swift_version": "5.0"
 }
